@@ -12,8 +12,8 @@ image:
   pullPolicy: IfNotPresent
   port: 9080
 
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "user-service"
+fullnameOverride: "user-service"
 
 service:
   type: ClusterIP
