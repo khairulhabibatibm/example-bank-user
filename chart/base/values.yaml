@@ -14,6 +14,7 @@ image:
 
 nameOverride: "user-service"
 fullnameOverride: "user-service"
+version: 1.0.0
 
 service:
   type: ClusterIP
