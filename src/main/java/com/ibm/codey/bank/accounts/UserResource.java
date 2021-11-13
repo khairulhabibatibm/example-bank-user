@@ -31,6 +31,7 @@ public class UserResource extends BaseResource {
 
     /**
      * This method creates a new user.
+     * test
      */
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
