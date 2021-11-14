@@ -12,6 +12,7 @@ metadata:
   {{- end }}
   labels:
     app: user-service
+    version: {{ .Values.version }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
